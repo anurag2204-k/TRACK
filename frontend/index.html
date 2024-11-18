@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/one.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRACK</title>
+    <style>
+      #vite-logo {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        animation: rotate 2s linear infinite;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <img src="/one.svg" alt="Vite Logo" id="vite-logo" />
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
