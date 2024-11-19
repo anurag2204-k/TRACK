@@ -123,14 +123,14 @@ const TransactionList = () => {
                       transaction.type.slice(1)}
                   </span>
                   <span className="ml-2 text-gray-800">
-                    {transaction.category?.name} - $
+                    {transaction.category?.name} - ₹
                     {transaction.amount.toLocaleString()}
                   </span>
                   <span className="text-sm text-gray-600 italic ml-2">
                     {transaction.description}
                   </span>
                 </div>
-                {/* <div className="flex space-x-3">
+                <div className="flex space-x-3">
                   <button
                     onClick={() => handleUpdateTransaction(transaction._id)}
                     className="text-blue-500 hover:text-blue-700"
@@ -143,7 +143,7 @@ const TransactionList = () => {
                   >
                     <FaTrash />
                   </button>
-                </div> */}
+                </div>
               </li>
             ))}
           </ul>

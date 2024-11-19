@@ -9,7 +9,7 @@ const app = express();
 
 //!Connect to mongodb
 mongoose
-  .connect("mongodb+srv://anu:wuWk3ERMapNLla0a@project.puzpj.mongodb.net/?retryWrites=true&w=majority&appName=project")
+  .connect("")
   .then(() => console.log("DB Connected"))
   .catch((e) => console.log(e));
 
